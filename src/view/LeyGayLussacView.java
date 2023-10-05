@@ -293,7 +293,7 @@ public class LeyGayLussacView extends javax.swing.JFrame {
             resolucion = "de que la presión cambie a " + p2 + " atmósferas.";
         } else {
             // Mostrar un mensaje de error si se ingresan todos los valores
-            JOptionPane.showMessageDialog(this, "Debe dejar un campo vacío en v22 o t2 para calcularlo.");
+            JOptionPane.showMessageDialog(this, "Debe dejar un campo vacío en p2 o t2 para calcularlo.");
         }
 
         // Establecer el texto en el TextArea
