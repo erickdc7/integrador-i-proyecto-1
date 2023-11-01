@@ -89,6 +89,11 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         btnGayLussac.setForeground(new java.awt.Color(220, 249, 250));
         btnGayLussac.setText("Ley de Gay-Lussac");
         btnGayLussac.setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
+        btnGayLussac.addMouseListener(new java.awt.event.MouseAdapter() {
+            public void mouseClicked(java.awt.event.MouseEvent evt) {
+                btnGayLussacMouseClicked(evt);
+            }
+        });
         btnGayLussac.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 btnGayLussacActionPerformed(evt);
@@ -247,6 +252,10 @@ public class VentanaPrincipal extends javax.swing.JFrame {
         LeyAvogadroView boyleView = new LeyAvogadroView();
         boyleView.setVisible(true);
     }//GEN-LAST:event_btnAvogadroActionPerformed
+
+    private void btnGayLussacMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_btnGayLussacMouseClicked
+        // TODO add your handling code here:
+    }//GEN-LAST:event_btnGayLussacMouseClicked
 
     public static void main(String args[]) {
         /* Set the Nimbus look and feel */
